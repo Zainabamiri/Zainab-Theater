@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .theater {
+    text-align: center;
+    border: 5px solid #fff;
+    padding: 20px;
+    background-color: black;
+  }
+  
+  video {
+    width: 80%;
+    border: 3px dashed yellow;
+    box-shadow: 0 0 10px white;
+  }
+  
+  .buttons {
+    margin-top: 15px;
+  }
+  
+  button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #ff4081;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
